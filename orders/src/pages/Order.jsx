@@ -5,6 +5,10 @@ const products = [
     { id: 1, name: "Jasmine Rice 1kg Bag" },
     { id: 2, name: "Basmati Rice 1kg Bag" },
     { id: 3, name: "Brown Rice 1kg Bag" },
+    { id: 4, name: "Arborio Rice 1kg Bag" },
+    { id: 5, name: "Bomba Rice 1kg Bag" },
+    { id: 6, name: "Glutinous (Sticky) Rice 1kg Bag" },
+    { id: 7, name: "Sushi Rice 1kg Bag" },
 ];
 
 function getCurrentDate() {
