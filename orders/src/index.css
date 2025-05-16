@@ -1,0 +1,10 @@
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(135deg, #fff3e0cc 60%, #ff910055 100%),
+    url('/pictures/Uncle_Roger.png') center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
