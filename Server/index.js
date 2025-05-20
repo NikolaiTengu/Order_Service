@@ -27,6 +27,23 @@ const orderSchema = new mongoose.Schema({
 
 const Order = mongoose.model('Order', orderSchema);
 
+// {
+//     orderId: '12345',
+//     products:[
+//         {
+//             productName: 'Product A',
+//             dateOrdered: '2023-10-01',
+//             status: 'Shipped',
+//             count: 2
+//         },
+//         {
+//             productName: 'Product B',
+//             dateOrdered: '2023-10-02',
+//             status: 'Pending',
+//             count: 1
+//         }
+//     ]
+// }
 // POST: Add a new order
 app.post('/api/orders', async (req, res) => {
     const { orderId, productName, dateOrdered, status, count } = req.body;
