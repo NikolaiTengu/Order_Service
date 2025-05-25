@@ -1,14 +1,12 @@
 {
   "scripts": {
-  "start": "node index.js"
+    "start": "node index.js"
   },
-  
   "name": "server",
   "dependencies": {
+    "amqplib": "^0.10.8",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "mongoose": "^8.14.3"
   }
-
-  
 }
